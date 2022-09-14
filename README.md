@@ -33,6 +33,7 @@ Sobel Edge Detection을 이용하여 Edge를 찾고 차선을 검출하는 Line 
 SIFT & Corner Detector
 -----------
 코너 검출의 경우 Harris corner detector로 코너를 검출하게 되며 이외에도 SIFT 를 통해 blob을 검출합니다. 이후 blob을 통해 얻은 두 이미지들의 matching을 수행하게 됩니다.
+
 ![기본2](https://user-images.githubusercontent.com/41661483/190109952-eb314215-d2a0-4a78-9501-62244168a4d8.png)
 ![blob](https://user-images.githubusercontent.com/41661483/190110259-6c22d7b0-4234-4fc4-8517-da73ffdf4180.png)
 
@@ -56,4 +57,5 @@ SVD를 활용한 homography를 수행한 뒤에 두 영상을 합치는 과정�
 Object Detection Step by step
 -----------
 간단한 one-stage detector를 직접 모델을 제작합니다.
+
 <img width="524" alt="det" src="https://user-images.githubusercontent.com/41661483/190114701-2ed344c1-e386-4633-8dd3-2386eba9aaf7.png">
